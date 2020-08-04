@@ -1,0 +1,21 @@
+{
+  "name": "waifu.pics",
+  "version": "0.0.1",
+  "main": "./lib/WaifuPics.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentaclenotsoft/node-waifu.pics.git"
+  },
+  "author": "tentaclesoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentaclenotsoft/node-waifu.pics/issues"
+  },
+  "homepage": "https://github.com/tentaclenotsoft#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
