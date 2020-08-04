@@ -9,6 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/tentaclenotsoft/node-waifu.pics.git"
   },
+  "keywords": [
+    "wrapper",
+    "waifu",
+    "waifu.api",
+    "image",
+    "anime"
+  ],
   "author": "tentaclesoft",
   "license": "MIT",
   "bugs": {
