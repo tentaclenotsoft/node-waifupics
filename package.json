@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/tentaclenotsoft/node-waifu.pics/issues"
   },
-  "homepage": "https://github.com/tentaclenotsoft#readme",
+  "homepage": "https://github.com/tentaclenotsoft/node-waifu.pics#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
