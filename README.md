@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.waifu.pics/Lcq0Tx8.jpg" width=45%><br>
+  <img src="https://i.waifu.pics/Lcq0Tx8.jpg" width=40%><br>
   <b>A simple wrapper for <a href="https://waifu.pics">waifu.pics</a> api</b>
   <br><br>
   <img src="https://img.shields.io/github/package-json/v/tentaclenotsoft/node-waifu.pics?style=flat-square" alt="Version">
@@ -19,15 +19,25 @@ $ yarn add waifu.pics
 
 ## Methods
 
-The structure of this library contains an object of functions and they are Promise.
-[Available methods](https://github.com/tentaclenotsoft/node-waifu.pics/blob/master/lib/Endpoints.js).
+| The structure of this library contains an object of functions and they are Promise. [Available methods](https://github.com/tentaclenotsoft/node-waifu.pics/blob/master/lib/Endpoints.js)<br>Exists possibility of having methods not available in this package that will be possible to be accessed from the `fetch` method. |
+| --- |
 
-## Advanced examples
+### fetch(endpoint)
+
+- **endpoint**: A string containing one of these [endpoints](https://waifu.pics/api/endpoints)
+
+> Returns : `Promise<Object>`
+
+### endpoints()
+> Returns : `Promise<string[]>`
+
+
+## Search usage example
 
 ```js
-const { nsfw } = require('waifu.pics')
+const WaifuPics = require('waifu.pics')
 
-nsfw()
+WaifuPics.fetch('nsfw')
   .then(console.log)
   .catch(console.error)
 ```
