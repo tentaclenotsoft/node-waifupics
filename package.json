@@ -7,21 +7,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tentaclenotsoft/node-waifu.pics.git"
+    "url": "git+https://github.com/tentaclenotsoft/node-waifupics.git"
   },
   "keywords": [
     "wrapper",
     "waifu",
-    "waifu.api",
+    "waifu.pics",
     "image",
     "anime"
   ],
   "author": "tentaclesoft",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tentaclenotsoft/node-waifu.pics/issues"
+    "url": "https://github.com/tentaclenotsoft/node-waifupics/issues"
   },
-  "homepage": "https://github.com/tentaclenotsoft/node-waifu.pics#readme",
+  "homepage": "https://github.com/tentaclenotsoft/node-waifupics#readme",
   "dependencies": {
     "node-fetch": "^2.6.0"
   }
