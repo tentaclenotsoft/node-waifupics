@@ -1,6 +1,6 @@
 {
   "name": "waifu.pics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/WaifuPics.js",
   "engines": {
     "node": ">=12.0.0"
