@@ -26,10 +26,10 @@ $ yarn add waifu.pics
 
 - **endpoint**: A string containing one of these [endpoints](https://waifu.pics/api/endpoints)
 
-> Returns : `Promise<Object>`
+>Returns: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)>
 
 ### endpoints()
-> Returns : `Promise<string[]>`
+>Returns: &nbsp;&nbsp; [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)[[]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)>
 
 
 ## Search usage example
